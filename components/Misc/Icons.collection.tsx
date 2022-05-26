@@ -4,6 +4,7 @@ import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { FaDiscord } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
+import { BsLinkedin } from "react-icons/Bs";
 
 export {
   BsSpotify,
@@ -14,4 +15,5 @@ export {
   BsArrowRightShort,
   FaDiscord,
   VscGithubAlt,
+  BsLinkedin
 };

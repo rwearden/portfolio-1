@@ -5,6 +5,7 @@ import {
   MdEmail,
   AiOutlineGithub,
   AiOutlineTwitter,
+  BsLinkedin
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
@@ -15,18 +16,12 @@ const Contact: NextComponentType = () => {
       <p className="text-3xl font-bold text-white">Get in touch</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
-        <Icon icon={<AiOutlineGithub />} url="https://github.com/kr-anurag" />
-
-        <Icon
-          icon={<AiOutlineTwitter />}
-          url="https://twitter.com/imanuraglol"
-        />
-
-        <Icon icon={<MdEmail />} url="mailto:kr.anurag24@gmail.com" />
-
+        <Icon icon={<AiOutlineGithub />} url="https://github.com/rwearden" />
+        <Icon icon={<BsLinkedin />} url="https://www.linkedin.com/in/robert-wearden-900933208/" />
+        <Icon icon={<MdEmail />} url="robertwearden2@gmail.com" />
         <Icon
           icon={<BsSpotify />}
-          url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q"
+          url="https://open.spotify.com/user/b77yohkbzz3q58hj8jyu0jdtf"
         />
       </div>
     </div>

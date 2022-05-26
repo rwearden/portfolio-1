@@ -9,43 +9,27 @@ const About: NextComponentType = () => {
   return (
     <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
       <div>
-        <p className="text-3xl font-bold text-white">Anurag</p>
-        <p className="mt-1 text-lg text-gray-300">
-          Frontend Developer, Blogger and a Student
+        <p className="text-3xl font-bold text-white">Bob Wearden</p>
+        <p className="mt-1 text-2xl text-white" >
+          Software Engineer
         </p>
 
-        <p className="mt-4 text-gray-400">
-          Building Web apps.
+        <p className="mt-4 text-white" style={{width: "500px"}}>
+        I am a software engineer with commercial experience building full stack applications within an Agile team.
+        <br/>
+        <br/>
+        I have jointly delivered software solutions to national and international clients including Coop, XPO, DPD, Warbutons and Northwest Ambulance Service.
+        <br/>
+        <br/>
+        I have been lucky enough to experience the full range of Agile roles across the development lifecycle including designing, prototyping, development, testing and deployment.
         </p>
-
-        <Link href="https://blog.anurag.tech" passHref>
-          <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read my Blog
-            <HiOutlineArrowNarrowRight />
-          </a>
-        </Link>
-
-        <Link href="https://sponsor.anurag.tech" passHref>
-          <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Love my work? Sponsor me!
-            <HiOutlineArrowNarrowRight />
-          </a>
-        </Link>
       </div>
 
       <div className="hidden custom:block">
         <Image
-          src="/assests/avatar.png"
-          width="112"
-          height="112"
+          src="/assests/pic_of_me.jpeg"
+          width="150"
+          height="150"
           className="rounded-full"
           alt="avatar"
         />
