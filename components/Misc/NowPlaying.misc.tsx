@@ -23,7 +23,7 @@ const SpotifyCard: NextComponentType = () => {
           <Link href={data?.songUrl} passHref>
             <p className="cursor-pointer truncate">
               I&apos;m currently listening to{" "}
-              <span className="text-1xl text-white">{`${data?.title} by ${data?.artist}`}</span>
+              <span className="text-1xl text-white">{`${data?.title} - ${data?.artist}`}</span>
               .
             </p>
           </Link>
