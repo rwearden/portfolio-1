@@ -18,7 +18,7 @@ const Contact: NextComponentType = () => {
       <div className="my-8 flex flex-row justify-center gap-x-4">
         <Icon icon={<AiOutlineGithub />} url="https://github.com/rwearden" />
         {/* <Icon icon={<BsLinkedin />} url="https://www.linkedin.com/in/robert-wearden-900933208/" /> */}
-        <Icon icon={<MdEmail />} url="robertwearden2@gmail.com" />
+        <Icon icon={<MdEmail />} url="mailto:robertwearden2@gmail.com" />
         <Icon
           icon={<BsSpotify />}
           url="https://open.spotify.com/user/b77yohkbzz3q58hj8jyu0jdtf"
