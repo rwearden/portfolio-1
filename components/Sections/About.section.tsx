@@ -12,7 +12,7 @@ const About: NextComponentType = () => {
         <p className="text-3xl font-bold text-white">Bob Wearden</p>
         <p className="mt-1 text-2xl text-white">Software Engineer</p>
 
-        <p className="mt-4 text-white" style={{ width: "500px" }}>
+        <p className="mt-4 text-white" style={{ width: "80%" }}>
           I am a software engineer with commercial experience building full
           stack applications within an Agile team.
           <br />
@@ -30,8 +30,8 @@ const About: NextComponentType = () => {
       <div className="hidden custom:block">
         <Image
           src="/assests/pic_of_me.jpeg"
-          width="170"
-          height="170"
+          width="300"
+          height="300"
           className="rounded-full"
           alt="avatar"
         />
